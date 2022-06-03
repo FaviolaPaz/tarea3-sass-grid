@@ -1,0 +1,100 @@
+$font-stack: sans-serif;
+$font-primary-color: #EFEFEF;
+$font-secondary-color:black;
+$navbar-bgcolor:#112B3C;
+$services-bgcolor: #205375;
+$footer-bgcolor:#F66B0E;
+
+.navbar {
+    background-color: $navbar-bgcolor;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+.navbar__logo {
+    height: 40px;
+    width: 40px;
+    margin-left: 2rem;
+  }
+
+[class^="navbar__list--"] {
+list-style: none;
+margin-right: 2rem;
+text-decoration: none;
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.welcome {
+    background-color: $font-primary-color;
+    color: $font-secondary-color;
+    margin: none;
+}
+
+.welcome__title {
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.welcome__p{
+    font-size: 20px;
+    padding: 0px 20px 20px 20px;
+}
+
+.services { 
+    background-color: $services-bgcolor;
+}
+
+[class ^="service__"]{
+    padding: 10px;
+}
+
+.services__img {
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+}
+
+.service__h5 {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.services__p {
+    padding: 5px;
+}
+
+.footer {
+    background-color: $footer-bgcolor;
+    color: $font-primary-color;
+    margin: none;
+    padding: 20px;
+    list-style: none;
+}
+
+.footer__p {
+    font-size: 18px;
+    color: $font-secondary-color;
+    display: flex;
+    flex-grow: 4;
+}
+
+.footer__social {
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.footer__list {
+    list-style: none;
+}
+
+.footer__img {
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}

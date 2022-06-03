@@ -1,0 +1,21 @@
+@import 'layout/layout';
+@import 'styles/styles';
+@import 'state/state';
+
+$font-stack: sans-serif;
+$font-primary-color: #EFEFEF;
+$font-secondary-color:black;
+$navbar-bgcolor:#112B3C;
+$services-bgcolor: #205375;
+$footer-bgcolor:#F66B0E;
+
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+
+body {
+    font: 100% sans-serif;
+    color: $font-primary-color;
+}
+  

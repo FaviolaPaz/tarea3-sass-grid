@@ -1,0 +1,53 @@
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+[class ^="navbar__list--"]{
+    display: grid;
+    place-self: center;
+}
+
+// .navbar__list--1 {
+//     grid-column-start: 1;
+//     grid-column-end: span 6;
+// }
+
+.welcome {
+    display: grid;
+    grid-template-columns: repeat(12 1fr);
+    grid-template-rows: 2;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+[class ^="service__"]{
+    display: grid;
+    place-self: center;
+}
+
+.services__img {
+    display: grid;
+    place-self: center;
+}
+
+.services__p {
+    display: grid;
+    place-self: center;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.footer__social {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    justify-self: end;
+    display: flex;
+    flex-wrap: wrap;
+}
